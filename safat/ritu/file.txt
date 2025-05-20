@@ -1,0 +1,75 @@
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop
+$ mkdir safat
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop
+$ cd safat
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ mkdir ritu
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ cd ritu
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat/ritu
+$ cd safat
+bash: cd: safat: No such file or directory
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat/ritu
+$ ^C
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat/ritu
+$ cd ..
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ rm ritu
+rm: cannot remove 'ritu': Is a directory
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ rmdir ritu
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ cd ritu
+bash: cd: ritu: No such file or directory
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ cd ..
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop
+$ rmdir safat
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop
+$ mkdir safat
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop
+$ cd safat
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ touch file.txt
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ cat file.txt
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ pwd
+/c/Users/user/Desktop/safat
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ ^C
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ echo "hlw">file.txt
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ cat file.txt
+hlw
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ tree
+bash: tree: command not found
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ ls
+file.txt
+
+user@DESKTOP-K36U0N9 MINGW64 ~/Desktop/safat
+$ rm file.txt
